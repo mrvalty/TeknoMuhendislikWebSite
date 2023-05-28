@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Owl Carousel -->
+    <link href="~/css/owl.carousel.css" rel="stylesheet" />
+    <link href="~/css/owl.theme.default.css" rel="stylesheet" />
+
+    <!-- Magnific Popup -->
+    <link href="~/css/magnific-popup.css" rel="stylesheet" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <!-- Custom stlylesheet -->
+    <link href="~/css/style.css" rel="stylesheet" />
+
+
+
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <nav id="nav" class="navbar">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <!-- Logo -->
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- /Logo -->
+                    <!-- Collapse nav button -->
+                    <div class="nav-collapse">
+                        <span></span>
+                    </div>
+                    <!-- /Collapse nav button -->
+                </div>
+
+                <!--  Main navigation  -->
+                <ul class="main-nav nav navbar-nav navbar-right">
+                    <li><a asp-action="Index" asp-controller="Home">AnaSayfa</a></li>
+                    <li><a asp-action="Index" asp-controller="Hizmetler">Hizmetlerimiz</a></li>
+                    <li><a asp-action="Index" asp-controller="Iletisim">İletişim</a></li>
+                    @*<li class="has-dropdown">
+                            <a href="#blog">Blog</a>
+                            <ul class="dropdown">
+                                <li><a href="blog-single.html">blog post</a></li>
+                            </ul>
+                        </li>*@
+                    @*<li><a href="#contact">Contact</a></li>*@
+                </ul>
+                <!-- /Main navigation -->
+
+            </div>
+        </nav>
+
+
+        <!-- /Nav -->
+        <!-- home wrapper -->
+        <!--<div class="home-wrapper">
+            <div class="container">
+                <div class="row">-->
+        <!-- home content -->
+        <!--<div class="col-md-10 col-md-offset-1">
+            <div class="home-content">
+                <h1 class="white-text">Tekno Mühendislik</h1>
+                <p class="white-text">
+                    Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+                </p>
+                <button class="white-btn">Get Started!</button>
+                <button class="main-btn">Learn more</button>
+            </div>
+        </div>-->
+        <!-- /home content -->
+        <!--</div>
+            </div>
+        </div>-->
+        <!-- /home wrapper -->
+    </header>
+
+    @RenderBody()
+
+    <!-- /Header -->
+    <footer id="footer" class="sm-padding bg-dark">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <!-- footer logo -->
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+                    </div>
+                    <!-- /footer logo -->
+                    <!-- footer follow -->
+                    <ul class="footer-follow">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    <!-- /footer follow -->
+                    <!-- footer copyright -->
+                    <div class="footer-copyright">
+                        <p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    </div>
+                    <!-- /footer copyright -->
+
+                </div>
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </footer>
+    <!-- /Footer -->
+    <!-- Back to top -->
+    <div id="back-to-top"></div>
+    <!-- /Back to top -->
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- /Preloader -->
+    <!-- jQuery Plugins -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.js"></script>
+    <script src="~/js/main.js"></script>
+
+</body>
+
+</html>
