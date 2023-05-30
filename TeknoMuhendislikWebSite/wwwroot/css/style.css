@@ -125,8 +125,11 @@ ul, ol {
 }
 
 .md-padding {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /*    padding-top: 120px;
+*/
+    padding-top: 50px;
+    /*padding-bottom: 120px;*/
+    margin-bottom: 75px;
 }
 
 .sm-padding {
