@@ -25,6 +25,11 @@
     <!-- Custom stlylesheet -->
     <link href="~/css/style.css" rel="stylesheet" />
 
+    <style>
+        .text1{
+            color:chartreuse !important;
+        }
+    </style>
 
 
 </head>
@@ -35,7 +40,6 @@
     <header>
         <!-- Nav -->
         <nav id="nav" class="navbar" style="background-color:orange">
-            <div class="container">
 
                 <div class="navbar-header">
                     <!-- Logo -->
@@ -54,11 +58,14 @@
 
                 <!--  Main navigation  -->
                 <ul class="main-nav nav navbar-nav navbar-right">
-                    <li><a asp-action="Index" asp-controller="Home">AnaSayfa</a></li>
+                    <li style="font-size:12px;"><a asp-action="Index" asp-controller="Home">AnaSayfa</a></li>
                     <li><a asp-action="Index" asp-controller="Hizmetler">Hizmetlerimiz</a></li>
                     <li><a asp-action="Index" asp-controller="Iletisim">İletişim</a></li>
+                    <li class="text1"><a><i class="fa fa-phone-square" aria-hidden="true"></i> Teknik Servis :<br /> 0312 111 11 11</a></li>
+                    <li class="text1"><a><i class="fa fa-phone-square" aria-hidden="true"></i> Teknik Servis :<br /> 0312 111 11 11</a></li>
+                    <li><a href="#" class="btn btn-light" style="margin-right:5px;"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Online Satış</a></li>
 
-                    
+
                     @*<li class="has-dropdown">
             <a href="#blog">Blog</a>
             <ul class="dropdown">
@@ -69,7 +76,6 @@
                 </ul>
                 <!-- /Main navigation -->
 
-            </div>
         </nav>
 
 
